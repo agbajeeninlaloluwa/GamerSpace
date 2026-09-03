@@ -1,0 +1,38 @@
+
+name: gamerspace
+description: The gaming bucket list that makes your backlog fun. Built for RevenueCat Shipaton 2026.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  purchases_flutter: ^10.10.1
+  onesignal_flutter: ^5.2.2
+  http: ^1.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.1
+  google_fonts: ^6.2.1
+  flutter_staggered_animations: ^1.1.1
+  lottie: ^3.3.1
+  share_plus: ^10.1.2
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/icons/
