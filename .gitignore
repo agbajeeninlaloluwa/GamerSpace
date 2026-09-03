@@ -46,3 +46,12 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+.dart_tool/
+.build/
+build/
+android/.gradle/
+android/app/build/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
